@@ -5,12 +5,12 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-    <PackageId>PACKAGEID</PackageId>
+    <PackageId>Senkel.ServiceLocator.Simple</PackageId>
     <Authors>Leonhard Senkel</Authors>
     <Company>Leonhard Senkel</Company>
     <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
-    <PackageDescription>DESCRIPTION</PackageDescription>
-    <RepositoryUrl>https://github.com/Leknes/REPOSITORY</RepositoryUrl>
+    <PackageDescription>A simple implementation of the service locator pattern.</PackageDescription>
+    <RepositoryUrl>https://github.com/Leknes/simple-service-locator</RepositoryUrl>
   </PropertyGroup>
 
 </Project>
