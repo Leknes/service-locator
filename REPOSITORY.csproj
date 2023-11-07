@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <PackageId>PACKAGEID</PackageId>
+    <Authors>Leonhard Senkel</Authors>
+    <Company>Leonhard Senkel</Company>
+    <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
+    <PackageDescription>DESCRIPTION</PackageDescription>
+    <RepositoryUrl>https://github.com/Leknes/REPOSITORY</RepositoryUrl>
+  </PropertyGroup>
+
+</Project>
