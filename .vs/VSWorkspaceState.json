@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\bin",
+    "\\bin\\Debug\\net6.0",
+    "\\bin\\Release\\net6.0",
+    "\\obj\\Debug",
+    "\\src",
+    "\\src\\Location"
+  ],
+  "SelectedNode": "\\service-locator.csproj",
+  "PreviewInSolutionExplorer": false
+}
