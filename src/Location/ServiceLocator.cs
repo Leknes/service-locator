@@ -1,4 +1,4 @@
-namespace Senkel.ServiceLocation;
+namespace Senkel.Services.ServiceLocation;
 
 // Services may be provided if the following rule applies.
 // A service may only depend on other services or on scripts that do not depend on any classes at all.
@@ -9,13 +9,11 @@ namespace Senkel.ServiceLocation;
 
 public static class ServiceLocator
 {
-    private static IDictionary<Type, ServiceObject> _serviceCollection = new Dictionary<Type, ServiceObject>();
-
-    private static ServiceRegistrar _registrar;
-
+    private static IDictionary<Type, ServiceObject> _serviceCollection;
+     
     static ServiceLocator()
     {
-        _registrar = new ServiceRegistrar(_serviceCollection);
+        _serviceCollection = ServiceStorage.GetStorage();
     }
 
     public static T Get<T>()
@@ -27,11 +25,7 @@ public static class ServiceLocator
 
         throw new ServiceLocationException(type);
     }
-
-    public static ServiceRegistrar GetRegistrar()
-    {
-        return _registrar;
-    }
+     
 }
 
 

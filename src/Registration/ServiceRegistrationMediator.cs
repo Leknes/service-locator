@@ -1,4 +1,4 @@
-namespace Senkel.ServiceLocation
+namespace Senkel.Services.ServiceLocation
 {
     public class ServiceRegistrationMediator<T>
     {
@@ -27,7 +27,7 @@ namespace Senkel.ServiceLocation
         public void ToInstance(T instance)
         {
             if(instance == null)
-                throw new NullReferenceException(nameof(instance));
+                throw new NullReferenceException("Instance to register can not be null.");
 
             RegisterServiceObject(new InstanceServiceObject(instance));
         }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Senkel.ServiceLocation;
+namespace Senkel.Services.ServiceLocation;
 
 internal class MethodServiceObject<T> : ServiceObject
 {

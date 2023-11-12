@@ -1,4 +1,4 @@
-namespace Senkel.ServiceLocation;
+namespace Senkel.Services.ServiceLocation;
 
 internal class InstanceServiceObject : ServiceObject
 {

@@ -1,0 +1,12 @@
+C:\Users\Leonhard\Source\Repos\service-locator\bin\Debug\net6.0\service-locator.deps.json
+C:\Users\Leonhard\Source\Repos\service-locator\bin\Debug\net6.0\service-locator.dll
+C:\Users\Leonhard\Source\Repos\service-locator\bin\Debug\net6.0\service-locator.pdb
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\service-locator.csproj.AssemblyReference.cache
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\service-locator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\service-locator.AssemblyInfoInputs.cache
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\service-locator.AssemblyInfo.cs
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\service-locator.csproj.CoreCompileInputs.cache
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\service-locator.dll
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\refint\service-locator.dll
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\service-locator.pdb
+C:\Users\Leonhard\Source\Repos\service-locator\obj\Debug\net6.0\ref\service-locator.dll

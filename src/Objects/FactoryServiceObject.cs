@@ -1,4 +1,4 @@
-namespace Senkel.ServiceLocation;
+namespace Senkel.Services.ServiceLocation;
 
 public interface IFactory<T>
 {

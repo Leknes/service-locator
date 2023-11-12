@@ -1,7 +1,7 @@
-namespace Senkel.ServiceLocation;
+namespace Senkel.Services.ServiceLocation;
 
 public class ServiceLocationException : Exception
 {
-    public ServiceLocationException(Type serviceType) : base($"The service of type {serviceType} could not be located.") { }
+    internal ServiceLocationException(Type serviceType) : base($"The service of type {serviceType} could not be located.") { }
 }
 
