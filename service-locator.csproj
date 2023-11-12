@@ -5,10 +5,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-    <PackageId>Senkel.ServiceLocator</PackageId>
+    <PackageId>Senkel.Services.ServiceLocator</PackageId>
     <Authors>Leonhard Senkel</Authors>
     <Company>Leonhard Senkel</Company>
-    <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageDescription>A simple implementation of the service locator pattern.</PackageDescription>
     <RepositoryUrl>https://github.com/Leknes/service-locator</RepositoryUrl>
   </PropertyGroup>
