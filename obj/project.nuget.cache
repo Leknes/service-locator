@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "kuiBUqTHodM919AaYK/inJQSO2Iv+YVaWmrjL/cF35OrM9YACQUOq5od6/QVpKaHMJlEtXyuaOliy5+PflNdFw==",
+  "dgSpecHash": "Vy8t+wPIDE55EM2ISEHt9HhvY28wdPmGm2ab7K6ll5Wn6ewr0Xz0fBWEZK7A8Vv4YdPOALZ9tiLyJ3jmDoHLhg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leonhard\\Source\\Repos\\service-locator\\service-locator.csproj",
+  "projectFilePath": "C:\\Users\\Leonhard\\source\\repos\\Leknes\\service-locator\\service-locator.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

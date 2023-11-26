@@ -1,4 +1,4 @@
-namespace Senkel.Services.ServiceLocation;
+namespace Senkel.Toolkit.Universal.ServiceLocation;
 
 internal class SingletonServiceObject<T> : ServiceObject where T : new()
 {

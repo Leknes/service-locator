@@ -1,5 +1,5 @@
 
-namespace Senkel.Services.ServiceLocation;
+namespace Senkel.Toolkit.Universal.ServiceLocation;
 
 internal abstract class ServiceObject
 {
