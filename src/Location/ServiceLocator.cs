@@ -1,4 +1,4 @@
-namespace Senkel.Toolkit.Universal.ServiceLocation;
+namespace Senkel.Toolkit.ServiceLocation;
 
 // Services may be provided if the following rule applies.
 // A service may only depend on other services or on scripts that do not depend on any classes at all.

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Senkel.Toolkit.Universal.ServiceLocation;
+namespace Senkel.Toolkit.ServiceLocation;
 
 internal static class ServiceStorage
 {

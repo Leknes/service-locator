@@ -1,4 +1,4 @@
-namespace Senkel.Toolkit.Universal.ServiceLocation;
+namespace Senkel.Toolkit.ServiceLocation;
 
 
 internal class TransientServiceObject<T> : ServiceObject where T : new()

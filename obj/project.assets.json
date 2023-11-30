@@ -15,7 +15,7 @@
     "version": "1.0.0",
     "restore": {
       "projectUniqueName": "C:\\Users\\Leonhard\\source\\repos\\Leknes\\service-locator\\service-locator.csproj",
-      "projectName": "Senkel.Services.ServiceLocator",
+      "projectName": "Senkel.ServiceLocation",
       "projectPath": "C:\\Users\\Leonhard\\source\\repos\\Leknes\\service-locator\\service-locator.csproj",
       "packagesPath": "C:\\Users\\Leonhard\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Leonhard\\source\\repos\\Leknes\\service-locator\\obj\\",
