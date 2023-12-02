@@ -1,27 +1,21 @@
 namespace Senkel.Toolkit.ServiceLocation;
-
-// Services may be provided if the following rule applies.
-// A service may only depend on other services or on scripts that do not depend on any classes at all.
-// Also a class may not instantiate a class unless it does not interact with any classes that aren't services.
-// Also a class can be instantiated when publicly it will only be accessable by an interface or a base class.
-// Instead a class should use the service locator or inject the dependency via unitys inspector; 
-// this is usually done when a class, in its function, does not represent a service but an object. 
-
+ 
+/// <summary>
+/// Is responsible for locating services by type that are registrated using the <see cref="ServiceRegistrar"/> class.
+/// </summary>
 public static class ServiceLocator
-{
-    private static IDictionary<Type, ServiceObject> _serviceCollection;
-     
-    static ServiceLocator()
-    {
-        _serviceCollection = ServiceStorage.GetStorage();
-    }
-
+{ 
+    /// <summary>
+    /// Returns the service that has been registrated using by the specified type.
+    /// </summary>
+    /// <typeparam name="T">The type of the service to locate.</typeparam> 
+    /// <exception cref="ServiceLocationException">Throws, if the service of the specified type could not be located.</exception>
     public static T Get<T>()
     {
         Type type = typeof(T);
 
-        if (_serviceCollection.TryGetValue(typeof(T), out ServiceObject? getter))
-            return (T)getter.GetService();
+        if (ServiceStorage.Storage.TryGetValue(typeof(T), out ServiceProvider? provider))
+            return (T)provider.Provide();
 
         throw new ServiceLocationException(type);
     }

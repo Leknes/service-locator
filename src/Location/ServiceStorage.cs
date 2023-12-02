@@ -8,10 +8,5 @@ namespace Senkel.Toolkit.ServiceLocation;
 
 internal static class ServiceStorage
 {
-    private static Dictionary<Type, ServiceObject> _serviceStorage = new Dictionary<Type, ServiceObject>();
-
-    internal static IDictionary<Type, ServiceObject> GetStorage()
-    {
-        return _serviceStorage;
-    }
+    public static IDictionary<Type, ServiceProvider> Storage {get;} = new Dictionary<Type, ServiceProvider>();
 }

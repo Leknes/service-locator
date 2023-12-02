@@ -13,4 +13,8 @@
     <RepositoryUrl>https://github.com/Leknes/service-locator</RepositoryUrl>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Senkel.ObjectModel.Creation" Version="1.1.0" />
+  </ItemGroup>
+
 </Project>

@@ -1,22 +1,23 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Senkel.Toolkit.ServiceLocation;
 
-internal class MethodServiceObject<T> : ServiceObject
-{
+internal class MethodServiceProvider<T> : ServiceProvider  
+{ 
     private readonly Func<T> _method;
-
-    public MethodServiceObject(Func<T> method)
+  
+    public MethodServiceProvider(Func<T> method)
     {
         _method = method;
-    }
-
-    public override object GetService()
-    {
-        return _method() ?? throw new NullReferenceException();
+    } 
+ 
+    public override object Provide()
+    {   
+        return _method()!;
     }
 }

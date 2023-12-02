@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PTuKMx1NkfhlFZ/4J3yyh3rHDK/oaczn/iABzF7v9UOjz8420P5tiUdwDP7DC7NrjIwX/vqQxg6zIAIjxKzBTQ==",
+  "dgSpecHash": "ORBW+cNbDbvXnyrYUkToMlDPJ4TgXDeKVaf+85++9lW2CE4wlSzJahBaLPYhFmxe4SvrcV1v+Tr1BUGtz9IatA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Leonhard\\source\\repos\\Leknes\\service-locator\\service-locator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Leonhard\\.nuget\\packages\\senkel.objectmodel.creation\\1.1.0\\senkel.objectmodel.creation.1.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

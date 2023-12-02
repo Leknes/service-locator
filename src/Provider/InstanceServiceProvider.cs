@@ -1,15 +1,15 @@
 namespace Senkel.Toolkit.ServiceLocation;
 
-internal class InstanceServiceObject : ServiceObject
+internal class InstanceServiceProvider : ServiceProvider
 {
     private readonly object _instance;
 
-    public InstanceServiceObject(object instance)
+    public InstanceServiceProvider(object instance)
     {
         _instance = instance;
     }
 
-    public override object GetService()
+    public override object Provide()
     {
         return _instance;
     }

@@ -1,38 +1,20 @@
+using Senkel.ObjectModel.Creation;
+
 namespace Senkel.Toolkit.ServiceLocation;
 
+/// <summary>
+/// Responsible for registrating services that can be located using the <see cref="ServiceLocator"/> class.
+/// </summary>
 public static class ServiceRegistrar
 {
-    private static readonly IDictionary<Type, ServiceObject> _serviceCollection;
-
-    static ServiceRegistrar()
+    /// <summary>
+    /// Prepares the registration of a service of the specified type.
+    /// </summary>
+    /// <typeparam name="T">The type that represents the service.</typeparam>
+    /// <returns>The mediator that is used to finish the registration of the service.</returns>
+    public static ServiceProvisionMediator<T> Register<T>()
     {
-        _serviceCollection = ServiceStorage.GetStorage();
+        return new ServiceProvisionMediator<T>();
     }
-
-    public static ServiceRegistrationMediator<T> Register<T>()
-    {
-        return new ServiceRegistrationMediator<T>(_serviceCollection);
-    }
-
-    public static void RegisterInstance<T>(T instance)
-    {
-        Register<T>().ToInstance(instance);
-    }
-    public static void RegisterSingleton<T>() where T : new()
-    {
-        Register<T>().AsSingleton<T>();
-    }
-    public static void RegisterTransient<T>() where T : new()
-    {
-        Register<T>().AsTransient<T>();
-    }
-    public static void RegisterFromFactory<T>(IFactory<T> factory)
-    {
-        Register<T>().FromFactory(factory);
-    }
-
-    public static void RegisterFromMethod<T>(Func<T> method)
-    {
-        Register<T>().FromMethod(method);
-    }
+ 
 }
