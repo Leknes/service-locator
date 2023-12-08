@@ -8,17 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "service-locator/1.0.0": {
         "dependencies": {
-          "Senkel.ObjectModel.Creation": "2.0.1"
+          "Senkel.ObjectModel.Creational": "2.1.1"
         },
         "runtime": {
           "service-locator.dll": {}
         }
       },
-      "Senkel.ObjectModel.Creation/2.0.1": {
+      "Senkel.ObjectModel.Creational/2.1.1": {
         "runtime": {
           "lib/net6.0/creational-patterns.dll": {
-            "assemblyVersion": "2.0.1.0",
-            "fileVersion": "2.0.1.0"
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
           }
         }
       }
@@ -30,12 +30,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Senkel.ObjectModel.Creation/2.0.1": {
+    "Senkel.ObjectModel.Creational/2.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KTZ+86waU6ErRBMAEjo/vfz6bLsFWbeAeVjoV41o04UW6LRxknpGqKj6tHZJaUU3A378onP8HJiiP+5QnRTjeQ==",
-      "path": "senkel.objectmodel.creation/2.0.1",
-      "hashPath": "senkel.objectmodel.creation.2.0.1.nupkg.sha512"
+      "sha512": "sha512-6leDVFAxyipn6pMZr2CQcKKkr1mNpiJ6nl3uvHP7ANKwNvCT8jHnP8uT1zUv2Z6nYTdK7B3gwNebmSHqitBAag==",
+      "path": "senkel.objectmodel.creational/2.1.1",
+      "hashPath": "senkel.objectmodel.creational.2.1.1.nupkg.sha512"
     }
   }
 }

@@ -1,5 +1,5 @@
 using System.Diagnostics.CodeAnalysis;
-using Senkel.ObjectModel.Creation;
+using Senkel.ObjectModel.Creational;
 
 namespace Senkel.Toolkit.ServiceLocation
 {

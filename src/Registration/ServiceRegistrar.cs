@@ -1,4 +1,4 @@
-using Senkel.ObjectModel.Creation;
+using Senkel.ObjectModel.Creational;
 
 namespace Senkel.Toolkit.ServiceLocation;
 
