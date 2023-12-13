@@ -5,7 +5,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <OutputType>Library</OutputType>
-    <PackageId>Senkel.Toolkit.ServiceLocation</PackageId>
+    <PackageId>Senkel.Tools.ServiceLocation</PackageId>
     <Authors>Leonhard Senkel</Authors>
     <Company>Leonhard Senkel</Company>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
