@@ -1,6 +1,6 @@
-using Senkel.ObjectModel.Creational;
+using Senkel.Model.Creating;
 
-namespace Senkel.Toolkit.ServiceLocation;
+namespace Senkel.Tools.Services;
  
 internal class FactoryServiceProvider<T> : ServiceProvider
 {

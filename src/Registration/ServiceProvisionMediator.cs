@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
-using Senkel.ObjectModel.Creational;
+using Senkel.Model.Creating;
 
-namespace Senkel.Toolkit.ServiceLocation
+namespace Senkel.Tools.Services
 {
    /// <summary>
    /// Functions as a mediator for setting a way of providing the object of the service to register.

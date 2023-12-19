@@ -1,4 +1,4 @@
-namespace Senkel.Toolkit.ServiceLocation;
+namespace Senkel.Tools.Services;
  
 /// <summary>
 /// Is responsible for locating services by type that are registrated using the <see cref="ServiceRegistrar"/> class.

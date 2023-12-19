@@ -1,4 +1,4 @@
-namespace Senkel.Toolkit.ServiceLocation;
+namespace Senkel.Tools.Services;
 
 /// <summary>
 /// This exception is thrown, when a service could not be located by the <see cref="ServiceLocator"/> class.

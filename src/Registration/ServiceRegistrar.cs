@@ -1,6 +1,6 @@
-using Senkel.ObjectModel.Creational;
+using Senkel.Model.Creating;
 
-namespace Senkel.Toolkit.ServiceLocation;
+namespace Senkel.Tools.Services;
 
 /// <summary>
 /// Responsible for registrating services that can be located using the <see cref="ServiceLocator"/> class.

@@ -1,4 +1,4 @@
-namespace Senkel.Toolkit.ServiceLocation;
+namespace Senkel.Tools.Services;
 
 /// <summary>
 /// Grants access to unregistrating a service that has previously been registrated.

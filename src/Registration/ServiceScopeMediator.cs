@@ -1,4 +1,4 @@
-namespace Senkel.Toolkit.ServiceLocation;
+namespace Senkel.Tools.Services;
 
 /// <summary>
 /// Functions as a mediator for registrating a service by setting a scope for the service.

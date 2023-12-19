@@ -1,4 +1,4 @@
-namespace Senkel.Toolkit.ServiceLocation;
+namespace Senkel.Tools.Services;
 
 internal class SingletonServiceProvider : ServiceProvider
 {
