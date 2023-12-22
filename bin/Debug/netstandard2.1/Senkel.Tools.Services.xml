@@ -34,9 +34,9 @@
             <param name="instance">The instance to represent the service.</param>
             <returns>A class granting access to unregistrating the service.</returns>
         </member>
-        <member name="M:Senkel.Tools.Services.ServiceProvisionMediator`1.FromFactory(Senkel.Model.Creating.IFactory{`0})">
+        <member name="M:Senkel.Tools.Services.ServiceProvisionMediator`1.FromFactory(Senkel.IFactory{`0})">
             <summary>
-            Sets the service of the specified type to be instantiated using the corresponding <see cref="M:Senkel.Model.Creating.IFactory`1.Create"/> method.
+            Sets the service of the specified type to be instantiated using the corresponding <see cref="M:Senkel.IFactory`1.Create"/> method.
             </summary>
             <param name="factory">The factory to use for instantiating the service.</param>
             <returns>A mediator for registrating by setting the scope of the service.</returns>

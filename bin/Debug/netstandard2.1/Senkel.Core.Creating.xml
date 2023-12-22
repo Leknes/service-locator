@@ -1,53 +1,53 @@
 <?xml version="1.0"?>
 <doc>
     <assembly>
-        <name>Senkel.Framework.Creating</name>
+        <name>Senkel.Core.Creating</name>
     </assembly>
     <members>
-        <member name="T:Senkel.Framework.Creating.IBuilder`1">
+        <member name="T:Senkel.IBuilder`1">
             <summary>
             Represents a object that is responsible for building an object of the specified type.
             </summary>
             <typeparam name="T">The type of the object to build.</typeparam>
         </member>
-        <member name="M:Senkel.Framework.Creating.IBuilder`1.Build">
+        <member name="M:Senkel.IBuilder`1.Build">
             <summary>
             Returns the object that this builder is responsible for building.
             </summary> 
         </member>
-        <member name="T:Senkel.Framework.Creating.IFactory`1">
+        <member name="T:Senkel.IFactory`1">
             <summary>
             Represents an object that is responsible for creating objects of the specified type.
             </summary>
             <typeparam name="T">The type of the objects that can be created with this factory.</typeparam>
         </member>
-        <member name="M:Senkel.Framework.Creating.IFactory`1.Create">
+        <member name="M:Senkel.IFactory`1.Create">
             <summary>
             Returns an object that this factory creates.
             </summary> 
         </member>
-        <member name="T:Senkel.Framework.Creating.IFactory`2">
+        <member name="T:Senkel.IFactory`2">
             <summary>
             Represents an object that is responsible for creating objects of the specified type.
             </summary>
             <typeparam name="T">The type of the objects that can be created with this factory.</typeparam>
-            <typeparam name="TArgument">The argument passed into the creation method.</typeparam>
+            <typeparam name="TParameter">The parameter of the creation method.</typeparam>
         </member>
-        <member name="M:Senkel.Framework.Creating.IFactory`2.Create(`1)">
+        <member name="M:Senkel.IFactory`2.Create(`1)">
             <summary>
             Returns an object that this factory creates.
             </summary> 
             <param name="value">The argument of the factory.</param>
         </member>
-        <member name="T:Senkel.Framework.Creating.IFactory`3">
+        <member name="T:Senkel.IFactory`3">
             <summary>
             Represents an object that is responsible for creating objects of the specified type.
             </summary>
             <typeparam name="T">The type of the objects that can be created with this factory.</typeparam>
-            <typeparam name="TArgument1">The first argument passed into the creation method.</typeparam>
-            <typeparam name="TArgument2">The second argument passed into the creation method.</typeparam>
+            <typeparam name="TParameter1">The first parameter of the creation method.</typeparam>
+            <typeparam name="TParameter2">The second parameter of the creation method.</typeparam>
         </member>
-        <member name="M:Senkel.Framework.Creating.IFactory`3.Create(`1,`2)">
+        <member name="M:Senkel.IFactory`3.Create(`1,`2)">
             <summary>
             Returns an object that this factory creates.
             </summary> 
